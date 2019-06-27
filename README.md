@@ -1,7 +1,5 @@
-**!!!!
-see create_universal.sh for creating universal frameworks
-!!!!!
-**
+
+**see create_universal.sh for creating universal frameworks for carthage**
 
 
 
