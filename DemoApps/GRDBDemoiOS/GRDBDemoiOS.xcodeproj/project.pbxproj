@@ -366,20 +366,20 @@
 				TargetAttributes = {
 					568E5FBE1E926430002582E0 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = AMD8W895CT;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = AA6686VE59;
+						ProvisioningStyle = Manual;
 					};
 					568E5FCA1E926430002582E0 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = AMD8W895CT;
+						DevelopmentTeam = AA6686VE59;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					56B036021E8D9EBE003B6DA4 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = AMD8W895CT;
+						DevelopmentTeam = AA6686VE59;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -588,13 +588,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				INFOPLIST_FILE = "GRDBDemoWatchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -605,13 +608,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				INFOPLIST_FILE = "GRDBDemoWatchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -623,11 +629,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				IBSC_MODULE = GRDBDemoWatchOS_Extension;
 				INFOPLIST_FILE = GRDBDemoWatchOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -641,11 +649,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				IBSC_MODULE = GRDBDemoWatchOS_Extension;
 				INFOPLIST_FILE = GRDBDemoWatchOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -770,11 +780,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				INFOPLIST_FILE = GRDBDemoiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 			};
 			name = Debug;
 		};
@@ -784,11 +796,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = AMD8W895CT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AA6686VE59;
 				INFOPLIST_FILE = GRDBDemoiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.groue.GRDBDemoiOS2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Andre;
 			};
 			name = Release;
 		};
